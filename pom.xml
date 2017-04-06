@@ -15,10 +15,16 @@
             <scope>test</scope>
         </dependency>
 
+        <!--<dependency>-->
+            <!--<groupId>com.xero</groupId>-->
+            <!--<artifactId>xero-java-sdk</artifactId>-->
+            <!--<version>0.0.9</version>-->
+        <!--</dependency>-->
+
         <dependency>
-            <groupId>com.xero</groupId>
-            <artifactId>xero-java-sdk</artifactId>
-            <version>0.0.9</version>
+            <groupId>com.github.trungie</groupId>
+            <artifactId>xero-java</artifactId>
+            <version>1444d3cf3473bd8767560a22c9c995adb7c6b2d7</version>
         </dependency>
 
         <dependency>
@@ -51,6 +57,10 @@
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
             </snapshots>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
